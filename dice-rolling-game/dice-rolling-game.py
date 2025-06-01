@@ -1,6 +1,6 @@
 import random
-
-while True :
+n=input("How many times do you want to run the loop : ")
+for i in range(int(n)):
     choice = input("Do you want to roll the dice (y/n) : ")
     if choice == "y":
         dice1= random.randint(1,6)
